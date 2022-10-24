@@ -1,0 +1,11 @@
+# Copyright © Ecwhim. All rights reserved.
+
+interface CategoryInterface {
+    ecw_canonical_url: String @doc(description: "Category canonical URL.") @resolver(class: "Ecwhim\\CanonicalUrlGraphQl\\Model\\Resolver\\Category\\CanonicalUrl")
+}
+type CmsPage {
+    ecw_canonical_url: String @doc(description: "CMS page canonical URL.") @resolver(class: "Ecwhim\\CanonicalUrlGraphQl\\Model\\Resolver\\CmsPage\\CanonicalUrl")
+}
+interface ProductInterface {
+    ecw_canonical_url: String @doc(description: "Product canonical URL.") @resolver(class: "Ecwhim\\CanonicalUrlGraphQl\\Model\\Resolver\\Product\\CanonicalUrl")
+}
