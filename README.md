@@ -15,7 +15,7 @@ You can install the module in the following ways:
 2. Navigate to your Magento project directory.
 3. Get the latest version of the module:
 ```shell
-composer require ecwhim/module-canonical-url-graph-gl
+composer require ecwhim/module-canonical-url-graph-ql
 ```
 4. [Enable the module](https://docs.ecwhim.com/Installation/#enable-the-extension).
 
